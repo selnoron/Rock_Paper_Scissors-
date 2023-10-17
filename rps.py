@@ -23,7 +23,7 @@ def main() -> str:
         return "\n-------------\033[33m\033[1m  {} \033[37m\033[0m-------------".format(result)
 
 
-def input_data() -> list:
+def input_data() -> list or str:
     user_choice: int = \
         int(input(
             "Сделайте выбор — (камень[0], бумага[1], ножницы[2]): "
